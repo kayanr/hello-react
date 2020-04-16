@@ -7,6 +7,9 @@ import * as serviceWorker from './serviceWorker';
 let header = <h1>JAVA</h1>
 let subheader = <h2>Certificate Program</h2>
 let text = <p>This comprehensive course introduces software engineering using the JAVA programming language with object-oriented programming principles. Learn primitive and non-primitive data types, control flow constructs, built-in class libraries, and event-driven programming methods. Create and manipulate objects, classes and how to use object-oriented tools such as the class debugger. Learn how to design, create, build and debug Java applications and applets. Apply algorithmic thinking to solve programming problems. Implement syntax rules in Java programs and explain variables and data types used in program development and more. This course is designed for students with some programming experience and/or have some familiarity with Object Oriented Programming. </p>
+let applyButton = <div>
+<button>APPLY FOR THIS PROGRAM </button>
+</div>
 
 /* Applications are still being accepted for this(FREE) scholarship funded course. Don't miss this opportunity to advance your career!
 This program is designed for:</p>);
@@ -30,6 +33,7 @@ ReactDOM.render(
     {header}
     {subheader}
     {text}
+    {applyButton}
   </div>,
   document.getElementById('root')
 );
