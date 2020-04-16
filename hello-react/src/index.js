@@ -37,7 +37,8 @@ let list = (
 
 
 ReactDOM.render(
-  <div>
+  <div
+  style={{backgroundColor:"beige"}}>
     {header}
     {subheader}
     {text}
